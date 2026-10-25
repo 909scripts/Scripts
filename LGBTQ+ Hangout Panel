@@ -1,4 +1,4 @@
--- COPY THIS: loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/909scripts/Scripts/refs/heads/main/LGBTQ%2B%20Hangout%20Panel"))()"))()
+-- COPY THIS: loadstring(game:HttpGet("https://raw.githubusercontent.com/909scripts/Scripts/refs/heads/main/LGBTQ%2B%20Hangout%20Panel"))()
 
 local players = game:GetService("Players")
 local runService = game:GetService("RunService")
