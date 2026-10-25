@@ -1,3 +1,5 @@
+-- COPY THIS: loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/909scripts/Scripts/refs/heads/main/LGBTQ%2B%20Hangout%20Panel"))()"))()
+
 local players = game:GetService("Players")
 local runService = game:GetService("RunService")
 local replicatedStorage = game:GetService("ReplicatedStorage")
@@ -48,7 +50,13 @@ local function getCurrentNameTagData()
         return
     end
     
-    local nameRow: Frame = nameTagGui:FindFirstChild("NameRow")
+    local frame = nameTagGui:FindFirstChild("Frame")
+    if not frame then
+        notifyError("Cannot find the frame in the name tag GUI.")
+        return
+    end
+    
+    local nameRow: Frame = frame:FindFirstChild("NameRow")
     if not nameRow then
         notifyError("Cannot find the frame 'NameRow.'")
         return
@@ -136,7 +144,7 @@ nameTagTab:CreateColorPicker({
 })
 
 nameTagTab:CreateDivider()
-nameTagData:CreateText({
+nameTagTab:CreateText({
     name = "Flairs",
     text = "Edit Flairs"
 })
