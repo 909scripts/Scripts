@@ -1,5 +1,8 @@
 -- COPY THIS: loadstring(game:HttpGet("https://raw.githubusercontent.com/909scripts/Scripts/refs/heads/main/LGBTQ%2B%20Hangout%20Panel"))()
 
+-- NOTIF
+loadstring(game:HttpGet("https://raw.githubusercontent.com/909scripts/Resources/refs/heads/main/notification.lua"))()
+
 local players = game:GetService("Players")
 local runService = game:GetService("RunService")
 local replicatedStorage = game:GetService("ReplicatedStorage")
