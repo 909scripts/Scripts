@@ -1,4 +1,4 @@
--- COPY THIS: 
+-- COPY THIS: loadstring(game:HttpGet("https://raw.githubusercontent.com/909scripts/Scripts/refs/heads/main/Larp%20Yard%20Panel.lua"))()
 
 -- NOTIF
 loadstring(game:HttpGet("https://raw.githubusercontent.com/909scripts/Resources/refs/heads/main/notification.lua"))()
