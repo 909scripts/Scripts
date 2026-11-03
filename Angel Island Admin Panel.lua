@@ -1,3 +1,8 @@
+-- COPY THIS: loadstring(game:HttpGet("https://raw.githubusercontent.com/909scripts/Scripts/refs/heads/main/Angel%20Island%20Admin%20Panel.lua"))()
+
+-- NOTIF
+loadstring(game:HttpGet("https://raw.githubusercontent.com/909scripts/Resources/refs/heads/main/notification.lua"))()
+
 local playerGui = game.Players.LocalPlayer.PlayerGui
 
 local function notifyError(errorMsg: string)
