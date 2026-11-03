@@ -1,3 +1,6 @@
+-- COPY THIS: 
+
+-- NOTIF
 loadstring(game:HttpGet("https://raw.githubusercontent.com/909scripts/Resources/refs/heads/main/notification.lua"))()
 
 local replicatedStorage = game:GetService("ReplicatedStorage")
